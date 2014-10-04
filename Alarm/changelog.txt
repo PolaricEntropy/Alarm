@@ -1,0 +1,25 @@
+﻿-- Changelog --
+
+Version 1.0
+
+*Initial release
+
+Version 1.1
+
+*Added manual setting of snooze timer.
+*Added two different methods of alarm, either playing a sound file or launching an URL.
+
+Version 1.1.1
+
+*Fixed a placement issue with the URL-enter form and a fixed a bug in the Clock.dll.
+
+Version 1.2
+
+*Added a test button to test the alarm.
+*A path check is done before the alarm is sounded. If no file exists revert to PC/System speaker.
+*The alarm window now places itself on top of everything.
+*Updated to CommonLib v 2.2
+
+Version 1.2.1
+
+*Now My Music is initial directory when looking for an audio file.

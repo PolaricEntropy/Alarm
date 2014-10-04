@@ -1,0 +1,23 @@
+﻿[MainForm]
+lblCurrentTime=Current time
+lblAlarmTime=Alarm time
+lblMethodOfWaking=Method of waking
+lblEnterTime=Alarm time: (hh:mm:ss)
+lblSnoozeTime=Snooze time: (hh:mm:ss)
+btnSetAlarm=Set alarm
+btnTest=Test
+Title=Alarm system
+cmbMethodOfWaking[0]=PC/system speaker
+cmbMethodOfWaking[1]=An audio file
+cmbMethodOfWaking[2]=An URL (eg. Spotify)
+AudioFilter=MP3-files|*.mp3|Wave-files|*.wav|All files|*.*
+
+[AlertForm]
+lblWarning=Warning: Alarm Active!
+lblAlarmInitiated=Alarm initiated: {0}
+btnShutdown=Shutdown!
+btnSnooze=Snooze!
+
+[EnterURLForm]
+lblInfo=Enter the address to the song/website to be played
+btnOk=Ok

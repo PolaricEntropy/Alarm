@@ -1,0 +1,23 @@
+﻿[MainForm]
+lblCurrentTime=Nuvarande tid
+lblAlarmTime=Alarmtid
+lblMethodOfWaking=Sätt att vakna till
+lblEnterTime=Ange tid: (hh:mm:ss)
+lblSnoozeTime=Snooze tid: (hh:mm:ss)
+btnSetAlarm=Sätt alarm
+btnTest=Test
+Title=Alarm system
+cmbMethodOfWaking[0]=PC/system högtalaren
+cmbMethodOfWaking[1]=En ljudfil
+cmbMethodOfWaking[2]=En URL (t.ex. Spotify)
+AudioFilter=MP3-filer|*.mp3|Wave-filer|*.wav|Alla filer|*.*
+
+[AlertForm]
+lblWarning=Varning: Alarm aktivt!
+lblAlarmInitiated=Alarm initierat: {0}
+btnShutdown=Stäng av!
+btnSnooze=Snooze!
+
+[EnterURLForm]
+lblInfo=Ange adressen till låten/hemsidan som ska spelas upp
+btnOk=Ok
